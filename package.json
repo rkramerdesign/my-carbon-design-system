@@ -5,8 +5,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "build-storybook",
+    "deploy-storybook": "gh-pages -d storybook-static"
   },
+  "homepage": "https://rkramerdesign.github.io/my-carbon-design-system",
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -26,6 +28,7 @@
     "@storybook/react-vite": "^9.0.4",
     "@vitest/browser": "^3.2.1",
     "@vitest/coverage-v8": "^3.2.1",
+    "gh-pages": "^6.3.0",
     "playwright": "^1.52.0",
     "prop-types": "^15.8.1",
     "storybook": "^9.0.4",
